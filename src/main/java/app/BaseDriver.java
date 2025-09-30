@@ -28,7 +28,7 @@ public class BaseDriver {
             System.out.println("Welcome to sql-practice");
             fillDataBase(url, userName, passWord);
         } catch (SQLException e){
-            System.err.println("Exeption was CATHED!!!");
+            System.err.println("Exeption was CAUGHT!!!");
             e.printStackTrace(System.err);
             System.exit(1);
         }
